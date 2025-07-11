@@ -19,8 +19,12 @@ header {
   height: 100vh;
 }
 .nav-title {
+  color: #4e47ff;
   font-weight: 800;
   font-size: 40px;
+}
+.title-clr {
+  color: #252432;
 }
 .nav {
   display: flex;
@@ -300,17 +304,16 @@ li a {
   color: #8987a1;
 }
 
-
 /* hover effect  */
-button:hover{
-    background-color: #fff;
-    border: 3px solid #4e47ff;
-    color: #4e47ff;
-    cursor: pointer;
-    transition: all 0.3s ease;
+button:hover {
+  background-color: #fff;
+  border: 3px solid #4e47ff;
+  color: #4e47ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-footer ul li a:hover{
-    color: #4e47ff;
-    text-decoration: underline;
+footer ul li a:hover {
+  color: #4e47ff;
+  text-decoration: underline;
 }
