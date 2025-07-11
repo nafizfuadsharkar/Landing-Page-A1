@@ -179,3 +179,42 @@ header {
 .card-img {
   border-radius: 50px;
 }
+
+/* focus section  */
+
+.focus{
+    padding: 40px 0px;
+    margin: 0px auto;
+    width: 1140px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.focus-button{
+     font-size: 16;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #4e47ff;
+  height: 48px;
+  width: 195px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.focus-img{
+    border-radius: 48px;
+}
+.focus-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-text{
+    color: #494954;
+}
+
+/* contact section design  */
