@@ -35,6 +35,7 @@ header {
   border: none;
   border-radius: 5px;
   color: white;
+  font-weight: bold;
 }
 
 .hero {
@@ -142,10 +143,10 @@ header {
   margin: 137px auto;
 }
 
-.cards{
-    display: flex;
-    gap: 10px;
-    padding: 50px 0px;
+.cards {
+  display: flex;
+  gap: 10px;
+  padding: 50px 0px;
 }
 
 .card {
@@ -182,20 +183,20 @@ header {
 
 /* focus section  */
 
-.focus{
-    padding: 40px 0px;
-    margin: 0px auto;
-    width: 1140px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    gap: 5px;
-    background-color: #fff;
-    border-radius: 10px;
+.focus {
+  padding: 40px 0px;
+  margin: 0px auto;
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
-.focus-button{
-     font-size: 16;
+.focus-button {
+  font-size: 16;
   font-weight: bold;
   margin-top: 20px;
   background-color: #4e47ff;
@@ -206,15 +207,110 @@ header {
   color: white;
 }
 
-.focus-img{
-    border-radius: 48px;
+.focus-img {
+  border-radius: 48px;
 }
-.focus-heading{
-    font-size: 50px;
-    font-weight: bold;
+.focus-heading {
+  font-size: 50px;
+  font-weight: bold;
 }
-.focus-text{
-    color: #494954;
+.focus-text {
+  color: #494954;
 }
 
 /* contact section design  */
+.contact {
+  margin: 50px auto;
+  padding: 30px 0px;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-title {
+  margin: auto 0px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: block;
+  width: 480px;
+  padding: 10px 0px 10px 20px;
+  border: none;
+}
+.contact textarea {
+  height: 90px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: block;
+  width: 480px;
+  padding: 10px 0px 10px 20px;
+  border: none;
+}
+.contact-button {
+  font-size: 16;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #4e47ff;
+  height: 48px;
+  width: 497px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+/* footer design  */
+footer {
+  width: full;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+}
+
+.footer-logo {
+  font-size: 70px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+.footer-text {
+  color: #8987a1;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #8987a1;
+}
+
+
+/* hover effect  */
+button:hover{
+    background-color: #fff;
+    border: 3px solid #4e47ff;
+    color: #4e47ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer ul li a:hover{
+    color: #4e47ff;
+    text-decoration: underline;
+}
