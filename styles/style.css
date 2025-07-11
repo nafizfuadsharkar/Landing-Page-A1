@@ -1,0 +1,181 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #f5f8ff;
+}
+
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+
+.primary-button {
+  background-color: #4e47ff;
+  height: 48px;
+  width: 132px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  gap: 50px;
+}
+
+.hero-content {
+  padding: 120px;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.hero-button {
+  font-size: 16;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #4e47ff;
+  height: 48px;
+  width: 174px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* action styles  */
+
+.action {
+  width: 1140px;
+  height: 328px;
+  margin: 116px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-img img {
+  border-radius: 48px;
+  width: 403px;
+  height: 328px;
+}
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+.action-button {
+  font-size: 16;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #4e47ff;
+  height: 48px;
+  width: 229px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.action-text {
+  font-size: 24px;
+  color: #74738a;
+  margin: 10px 0px;
+}
+/* number section design   */
+.number {
+  width: 1140px;
+  height: 306px;
+  background-color: #bdbaf1;
+  margin: 0px auto;
+  border-radius: 20px;
+  text-align: center;
+}
+.number-pad {
+  padding: 50px;
+}
+.number-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.contents-number {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.inner-number {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inner-text {
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(69, 69, 69);
+}
+
+/* review section design  */
+
+.card-section {
+  width: 1140px;
+  margin: 137px auto;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    padding: 50px 0px;
+}
+
+.card {
+  width: 386px;
+  height: 243;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.review-title {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-heading {
+  padding: 10px 0px;
+}
+.card-review-sub {
+  color: gray;
+  font-weight: bold;
+}
+.date {
+  color: gray;
+}
+.imgntext {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.card-img {
+  border-radius: 50px;
+}
